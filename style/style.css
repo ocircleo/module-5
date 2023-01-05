@@ -410,6 +410,7 @@ nav {
     margin: 10px;
     font-size: 18px;
     padding-left: 10px;
+    resize: vertical;
 }
 
 #submit-button {
