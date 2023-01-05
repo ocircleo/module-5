@@ -211,7 +211,7 @@ nav {
 /* ===== end of about me ===== */
 .what-i-do {
     height: 750px;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -250,6 +250,7 @@ nav {
     align-items: flex-start;
     padding: 20px 20px;
     border-radius: 10px;
+    box-shadow: 0 0 20px rgb(221, 220, 220);
 }
 
 .what-i-do-card h3 {
@@ -265,4 +266,65 @@ nav {
 .what-i-do-card img {
     width: 45px;
     margin: 10px 0 30px 10px;
+}
+/* ===== what i do ===== */
+.summary-of-resume{
+    height: 1000px;
+    width: 70%;
+    /* background-color: var(--bg-color); */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.summary-of-resume h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.resume-detail-secton-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+.resume-detail-section{
+    text-align: left;
+    margin-top: 30px;
+}
+.resume-detail-section h2{
+    font-size: 30px;
+    padding: 0 0 30px 0;
+    text-align: left;
+    color: rgb(82, 82, 82);
+}
+.resume-detail-section h3{
+    font-size: 28px;
+    padding: 0 0 20px 0;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+}
+.resume-detail-section h4{
+    font-size: 22px;
+    padding: 0 0 20px 0;
+    color: gray;
+}
+.resume-detail-section p{
+    color: gray;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.download-cv{
+    background-color: var(--link-color);
+    border: none;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 25px;
+    padding: 15px 20px;
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 5px;
 }
